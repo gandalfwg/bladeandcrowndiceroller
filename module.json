@@ -1,0 +1,14 @@
+{
+    "name": "BladeAndCrown-DiceRoller",
+    "title": "Blade And Crown: Dice Roller",
+    "description": "A simple module for rolling dice for the Blade and Crown system.",
+    "author": "Gandalfwg",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.8.6",
+	"compatibleCoreVersion": "0.8.6",
+	"esmodules": [ "./scripts/main.js", "./scripts/bac-dice-roller-form.js" ],
+	"styles": [ "./styles/style.css" ],
+	"url": "https://github.com/gandalfwg/bladeandcrowndiceroller",
+	"manifest": "https://raw.githubusercontent.com/gandalfwg/bladeandcrowndiceroller/master/module.json",
+	"download": "https://github.com/gandalfwg/bladeandcrowndiceroller/archive/master.zip"
+}

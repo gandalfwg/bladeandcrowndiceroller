@@ -1,0 +1,19 @@
+<div class="dice-roll">
+    <div class="dice-result fux-dice-roller-chat-result">
+        <div class="fux-dice-roller-chat-formula">{{formula}}</div>
+          <div class="dice-tooltip">
+            <section class="tooltip-part">
+                <div class="dice">
+                    <ol class="dice-rolls">
+                    {{#each rolls}}
+                        <li class="roll die d10">{{{this.result}}}</li>
+                    {{/each}}
+                    </ol>
+                </div>
+            </section>
+        </div>
+        <h4 class="dice-total" {{#if isSuccess}} style="color:green;" {{/if}} {{#if isStalemate}} style="color:blue;" {{/if}} {{#if isFail}} style="color:red;" {{/if}} >{{total}}</h4>
+        <h3 class="dice-total">{{variance}}</h3>                
+    </div>
+   
+</div>
